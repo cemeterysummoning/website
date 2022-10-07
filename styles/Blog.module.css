@@ -1,0 +1,34 @@
+.posts {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.postcard {
+    height: auto;
+    
+}
+
+.link {
+    all: unset;
+    cursor: pointer;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0) !important;
+    text-underline-offset: 0.2em !important;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms !important;
+}
+
+.link:hover {
+    text-decoration-color: white !important;
+    text-underline-offset: 0.4em !important;
+}
+
+
+.position {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.postbody {
+    font-size: 1em;
+}

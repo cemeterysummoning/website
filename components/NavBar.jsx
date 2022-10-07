@@ -1,0 +1,24 @@
+import Link from 'next/link'
+import Image from 'next/image'
+import React, { useState } from 'react'
+import NavItem from './NavItem'
+import styles from '../styles/Navbar.module.css'
+// ⋀
+
+const NavBar = () => {
+    const PAGE_LIST = [
+        {text: '/\\', href: '/'},
+        {text: 'about', href: '/about'},
+        {text: 'blog', href: '/blog'},
+        {text: 'creations', href: '/creations'}
+    ]
+    return (
+        <div className={styles.container}>
+            {PAGE_LIST.map((name) => (
+                <NavItem text={name.text} href={name.href}/>
+            ))}
+        </div>
+    )
+}
+
+export default NavBar;
