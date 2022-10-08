@@ -10,12 +10,12 @@ const TimelineItem = ({ data }) => {
 
         <div className={styles.content}>
             {
-                data.contents.map((item) => (
-                    <div className={styles.contents}>
+                data.contents.map((item, index) => (
+                    <div className={styles.contents} key={index}>
                         <h3>{item.month}</h3>
                         <ul>
-                            {item.text.map((texts) => (
-                                <li>{texts}</li>
+                            {item.text.map((texts, index) => (
+                                <li key={index}>{texts}</li>
                             ))}
                         </ul>
 

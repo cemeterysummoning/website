@@ -18,11 +18,11 @@ export default function About({ posts }) {
             </Head>
             <div style={{height: "10vh"}}></div>
             <h1 style={{marginLeft: "10%"}}>blog</h1>
-            <h3 style={{marginLeft: "10%"}}>where I ramble about some cool math and cs concepts that I've found, plus some humanities things</h3>
+            <h3 style={{marginLeft: "10%"}}>where I ramble about some cool math and cs concepts that I&apos;ve found, plus some humanities things</h3>
             <br />
             <div className={styles.posts}>
                 {posts.map((post, index) => (
-                    <Post post={post} />
+                    <Post post={post} key={index}/>
                 )) }
             </div>
             <div style={{height: "10vh"}}></div>

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Icon = ({ path, href }) => {
     return (
         <a href={href}>
-            <Image src={path} width={40} height={40}/>
+            <Image src={path} width={40} height={40} alt="logo"/>
         </a>
     )
 }

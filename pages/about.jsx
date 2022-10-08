@@ -17,8 +17,8 @@ export default function About() {
             <BoxesPage style={{position: 'fixed'}}/>
             <main className={styles.main}>
                 <div className={aboutStyles.main}>
-                    <h1 className={styles.title}>I'm Ace Chun. </h1>
-                    <h4 className={styles.subtext}>I'm a high schooler passionate about {' '}
+                    <h1 className={styles.title}>I&apos;m Ace Chun. </h1>
+                    <h4 className={styles.subtext}>I&apos;m a high schooler passionate about {' '}
                         <div style={{fontSize: '1.5rem', verticalAlign: 'middle', display: 'inline-block', marginBottom: '2px'}}>
                             <Typewriter 
                                 options={{
@@ -36,7 +36,7 @@ export default function About() {
                     <div    >
                         <h1>Welcome to my website.</h1>
                         <p>
-                            I'm a student in the math, science, and computer science magnet at Montgomery Blair 
+                            I&apos;m a student in the math, science, and computer science magnet at Montgomery Blair 
                             High School. My main interests lie in computer science, quantum computing, and generative art.
                         </p>
                         <p>

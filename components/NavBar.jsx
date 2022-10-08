@@ -14,8 +14,8 @@ const NavBar = () => {
     ]
     return (
         <div className={styles.container}>
-            {PAGE_LIST.map((name) => (
-                <NavItem text={name.text} href={name.href}/>
+            {PAGE_LIST.map((name, index) => (
+                <NavItem text={name.text} href={name.href} key={index}/>
             ))}
         </div>
     )
