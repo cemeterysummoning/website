@@ -87,7 +87,6 @@ export async function getStaticProps({ params: {slug} }) {
     const mdMeta = fs.readFileSync(path.join('blog-posts', slug + '.md'), 'utf-8')
 
     const { data, content } = matter(mdMeta)
-    console.log(data);
 
     return {
         props: {
