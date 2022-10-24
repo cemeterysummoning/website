@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iktakahiro/markdown-it-katex": "^4.0.1",
     "@react-three/drei": "^9.22.0",
     "@react-three/fiber": "^8.3.1",
     "gray-matter": "^4.0.3",

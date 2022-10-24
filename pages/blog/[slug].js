@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import katex from 'katex'
-import Script from 'next/script'
+import markdownItKatex from '@iktakahiro/markdown-it-katex'
 
 import Link from 'next/link'
 import styles from '../../styles/Blog.module.css'
@@ -27,6 +27,7 @@ renderer.paragraph = (text) => {
   for (let i in inlineExprArray) {
     const expr = inlineExprArray[i]
     const result = renderMathsExpression(expr)
+    
     text = text.replace(expr, result)
   }
   return originParagraph(text)
@@ -55,12 +56,15 @@ function renderMathsExpression (expr) {
   }
 }
 marked.setOptions({renderer: renderer})
+marked.use(markdownItKatex)
 
 
 export default function PostPage({ data: {title, date}, slug, content }) {
     return (
       <>
-      
+      <Head>
+        <title>{title}</title>
+      </Head>
       <div className={styles.position}>
           <h1 style={{ fontSize: "3em" }}>{title}</h1>
           <h3 style={{ fontSize: "1em" }}>{date}</h3>
