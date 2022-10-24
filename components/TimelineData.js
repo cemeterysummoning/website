@@ -10,16 +10,25 @@ const data = [
                 ]
             }, 
             {
-                month: 'July-August',
+                month: 'August',
+                text: [
+                    'Received the AP Scholar Award', 
+                    'Received the Dr. Bob Disruptive Engineers Award at BWSI'
+                ]
+            },
+            {
+                month: 'July',
                 text: [
                     'Participated in the Quantum Software course, MIT BWSI',
-                    'Received the AP Scholar Award'
                 ]
             }, 
             {
                 month: 'June',
                 text: [
                     'Organized a free coding camp for students with Steel City Codes'
+                ], 
+                text: [
+                    'Received the Silver President\'s Volunteer Service Award'
                 ]
             }
         ]
@@ -31,7 +40,8 @@ const data = [
             {
                 month: 'July', 
                 text: [
-                    'Participated in Qubit by Qubit'
+                    'Participated in Qubit by Qubit', 
+                    'First place at the European Classical Music Competition'
                 ]
             }
         ]
@@ -40,6 +50,12 @@ const data = [
         year: 2020,
         education: 'Humanities Program at Eastern Middle School',
         contents: [
+            {
+                month: 'June',
+                text: [
+                    'Received the Silver President\'s Volunteer Service Award'
+                ]
+            },
             {
                 month: 'March',
                 text: [

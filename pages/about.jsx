@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar'
 import Typewriter from 'typewriter-effect'
 import Timeline from '../components/Timeline'
 import BoxesPage from '../components/three/Toruswithoutorbit'
+import CurrentActivities from '../components/CurrentActivities'
 
 export default function About() {
     return (
@@ -46,6 +47,8 @@ export default function About() {
                     </div>
                     
                 </div>
+
+                {/* <CurrentActivities /> */}
                 
                 <Timeline className={aboutStyles.position}/>
                 

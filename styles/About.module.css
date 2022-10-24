@@ -1,12 +1,12 @@
 .main {
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .position {
     text-align: left;
     padding-left: 10%;
     margin-right: 50%;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .profile {

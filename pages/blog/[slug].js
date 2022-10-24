@@ -6,6 +6,7 @@ import katex from 'katex'
 
 import Link from 'next/link'
 import styles from '../../styles/Blog.module.css'
+import Image from 'next/image'
 
 const renderer = new marked.Renderer()
 let originParagraph = renderer.paragraph.bind(renderer)
@@ -53,6 +54,10 @@ function renderMathsExpression (expr) {
 }
 marked.setOptions({renderer: renderer})
 
+function setImage(parsed_mark) {
+  img_exp = /\!\[\/public\/images\/(.+)\]/g
+}
+
 export default function PostPage({ data: {title, date}, slug, content }) {
     return (
         <div className={styles.position}>
@@ -60,6 +65,7 @@ export default function PostPage({ data: {title, date}, slug, content }) {
             <h3 style={{fontSize: "1em"}}>{date}</h3>
             <div className={styles.postbody}>
                 <div dangerouslySetInnerHTML={{__html: marked.parse(content)}}></div>
+
             </div>
         </div>
     )

@@ -1,14 +1,13 @@
 ---
 title: 'First post'
 date: 'Aug 15 2022'
-excerpt: 'I mainly wanted to create this as a place to put writeups of concepts...'
 ---
 
 So, this is the first post on my blog. I mainly wanted to create this as a place to put writeups of concepts that I want to wrap my head around, or some thoughts that I've had, or anything in between. I've found that the best way to learn a particularly difficult concept is by trying to *explain* it to someone; I've figured that this is the way to do it for me, personally.
 
 This website was made with Next.js and React; it was a particular challenge to me as I've never really dealt with frameworks or javascript libraries before. Up until now, everything I've made has been contained within vanilla javascript, which got incredibly bloated and inefficient. The making of this site was a welcome challenge, and I anticipate getting to know more about coding ecosystems and general app development.
 
-As a test, here's a diagram of a DFA I drew in tikz:
+As a test, here's a diagram of a DFA I drew in tikz: $$\int_a^b f(x) dx$$
 
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176.146pt" height="75.423pt" viewBox="0 0 176.146 75.423" version="1.1" fill="white">
