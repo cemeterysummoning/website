@@ -7,7 +7,7 @@ import ActivityItem from "./ActivityItem";
 function CurrentActivities() {
     const [index, chooseIndex] = useState(1);
     return ( <div className={styles.position}>
-        <h1>Currently, I'm: </h1>
+        <h1>Currently, I&apos;m: </h1>
         <ActivityItem data={datum[index]} id={index} />
     </div> );
 }
