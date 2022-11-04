@@ -10,6 +10,8 @@ import styles from '../../styles/Blog.module.css'
 import Image from 'next/image'
 import Head from 'next/head'
 
+import 'katex/dist/katex.min.css'
+
 const renderer = new marked.Renderer()
 let originParagraph = renderer.paragraph.bind(renderer)
 renderer.paragraph = (text) => {
@@ -49,7 +51,7 @@ function renderMathsExpression (expr) {
     if (displayStyle && html) {
       html = html.replace(/class="katex"/g, 'class="katex katex-block" style="display: block;"')
     }
-    html = html.replace("aria-hidden", "hidden")
+    // html = html.replace("aria-hidden", "hidden")
     return html
   } else {
     return null
@@ -64,7 +66,9 @@ export default function PostPage({ data: {title, date}, slug, content }) {
       <>
       <Head>
         <title>{title}</title>
+        
       </Head>
+      
       <div className={styles.position}>
           <h1 style={{ fontSize: "3em" }}>{title}</h1>
           <h3 style={{ fontSize: "1em" }}>{date}</h3>
