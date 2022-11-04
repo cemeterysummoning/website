@@ -76,3 +76,49 @@ Notice how we can use *any* value for $a,\ b$ here to find the nth term of any s
 $$a + b = P_0$$
 
 $$a\varphi + b\bar{\varphi} = P_1$$
+
+We do not even have to be limited to Fibonacci sequences. Since our understanding of this formula comes from the quadratic 
+
+$$x^2 - x - 1 = 0$$
+
+why shouldn't there exist some formula that would tell us the nth Pell number, or for that matter, the nth term of a given Lucas sequence?
+
+We can start with the Pell numbers, of which growth is analogous to the silver ratio as the Fibonacci numbers are to the golden ratio. Once again, we can start with our 'silver ratio' quadratic: 
+
+$$x^2 - 2x - 1 = 0$$. 
+
+Once again, simply multiplying by $x$ throughout yields 
+
+$$x^n = 2x^{n-1} + x^{n-2}$$
+
+For the silver ratio $\delta_S$ and its conjugate $\bar{\delta_S}$, then, 
+
+$$\delta_S^n = 2\delta_S^{n-1} + \delta_S^{n-2}$$
+$$\bar{\delta_S}^n = 2\bar{\delta_S}^{n-1} + \bar{\delta_S}^{n-2} $$
+
+Once again, any sequence satisfied by the Pell relation will also satisfy 
+
+$$P_n = a\delta_S^n + b\bar{\delta_S}^n$$
+
+Thus, we need to solve the system of equations 
+
+$$a + b = 0$$
+$$a\delta_S + b\bar{\delta_S} = 1$$
+
+Which yields 
+
+$$a = \frac{1}{\delta_S - \bar{\delta_S}} = \frac{1}{\sqrt{8}} = -b$$
+
+and we are left with the formula 
+
+$$P_n = \frac{\delta_S^n - \bar{\delta_S}^n}{2\sqrt{2}}$$
+
+For any Lucas sequence of the form 
+
+$$P_n = aP_{n-1} + bP_{n-2}$$
+
+and a corresponding quadratic equation 
+
+$$x^2 - ax - b = 0$$
+ 
+we can derive a similar formula for the nth term.

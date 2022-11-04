@@ -4,11 +4,11 @@ date: "Nov 4 2022"
 
 ---
 
-We've all heard of the Golden Ratio; it's a well observed phenomenon across nature, often seen in surprising places: from the spirals of a pinecone to the perceived root of aesthetic beauty. 
-There is something to be said about this prevalence in nature; the Golden Ratio can be thought of as just a consequence of an exceedingly simple idea; the ratio between one thing and the next being equal to the ratio between that next object and its next. 
-In fact, among the derivations of the Golden Ratio lies the idea of the Fibonacci sequence (which we'll touch on later), which itself came from the goal of modeling the reproduction of rabbits. 
+We've all heard of the golden ratio; it's a well observed phenomenon across nature, often seen in surprising places: from the spirals of a pinecone to the perceived root of aesthetic beauty. 
+There is something to be said about this prevalence in nature; the golden ratio can be thought of as just a consequence of an exceedingly simple idea; the ratio between one thing and the next being equal to the ratio between that next object and its next. 
+In fact, among the derivations of the golden ratio lies the idea of the Fibonacci sequence (which we'll touch on later), which itself came from the goal of modeling the reproduction of rabbits. 
 
-Although it has many definitions, the Golden Ratio (often notated φ) is often thought of as the relationship: 
+Although it has many definitions, the golden ratio (often notated φ) is often thought of as the relationship: 
 
 $$\frac{a + b}{a} = \frac{a}{b} = \varphi$$
 
@@ -27,7 +27,7 @@ Remember this quadratic (we'll call it equation *(1)*); this will be useful to u
 
 $$\varphi = \frac{1 + \sqrt{5}}{2}$$
 
-Another way to describe the Golden Ratio lies in its connection to the Fibonacci sequence; it is the asymptotic value of the ratio between two consecutive Fibonacci numbers, or
+Another way to describe the golden ratio lies in its connection to the Fibonacci sequence; it is the asymptotic value of the ratio between two consecutive Fibonacci numbers, or
 
 $$\lim_{n \to \infty} \frac{F(n)}{F(n-1)}$$
 
@@ -64,7 +64,7 @@ Now, realize that we can perform a few substitutions back into equation *(2)*.
 $$\varphi = 1 + \frac{1}{\varphi}$$
 
 This is exactly where we started with our original derivations of the exact value φ; in fact, two more algebraic manipulations will yield our exact quadratic as found earlier, equation *(1)*.
-Now, we'll have one last look at the Golden Ratio; namely, its expression as the continued fraction 
+Now, we'll have one last look at the golden ratio; namely, its expression as the continued fraction 
 
 $$\varphi = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{\ddots}}}}$$
 
@@ -75,8 +75,8 @@ $$\varphi = 1 + \frac{1}{\varphi}$$
 Given how we've done two of these already, it's not hard to see that this leads back to our original quadratic, equation *(1)*!
 This is an extremely beautiful set of relations, in my view; they are many different, seemingly unrelated things pointing into a single direction. However, this may leave you wondering, do more of these numbers exist?
 
-# Silver Ratios
-In fact, they do. The Silver Ratio, somewhat reminiscent of the Golden Ratio, is defined to be the relation 
+# silver ratios
+In fact, they do. The silver ratio, somewhat reminiscent of the golden ratio, is defined to be the relation 
 
 $$\frac{2a + b}{a} = \frac{a}{b} = \delta_S$$
 
@@ -90,22 +90,22 @@ $$\delta_S^2-2\delta_S - 1 = 0$$
 
 $$\delta_S = \frac{2 + \sqrt{8}}{2} = 1 + \sqrt{2}$$
 
-There are sequences and continued fractions for this, as well. The Pell sequence ([OEIS A000129](https://oeis.org/A000129)) is to the Silver Ratio as the Fibonacci sequence is to the Golden Ratio; if we take the limit as the ratio between successive Pell numbers goes to infinity, 
+There are sequences and continued fractions for this, as well. The Pell sequence ([OEIS A000129](https://oeis.org/A000129)) is to the silver ratio as the Fibonacci sequence is to the golden ratio; if we take the limit as the ratio between successive Pell numbers goes to infinity, 
 
-$$\lim_{n \to \infty} \frac{P(n + 1)}{P(n)} = \frac{2P(n-1) + P(n)}{P(n)}$$
+$$\lim_{n \to \infty} \frac{P(n + 1)}{P(n)} = \frac{P(n-1) + 2P(n)}{P(n)}$$
 
 then we arrive at that same kind of quadratic
 
 $$\delta_S^2-2\delta_S - 1 = 0$$
 
-through the exact same process. In addition, we can express the Silver Ratio as a continued fraction; that is, 
+through the exact same process. In addition, we can express the silver ratio as a continued fraction; that is, 
 
 $$2 + \frac{1}{2 + \frac{1}{2 + \frac{1}{2 + \frac{1}{2 + \ddots}}}}$$
 
-With the exact same process as performed for the Golden Ratio, we once again end up at a number that fulfills similar roles for slightly different mathematical entities.
+With the exact same process as performed for the golden ratio, we once again end up at a number that fulfills similar roles for slightly different mathematical entities.
 
 # In Generality
-These kinds of ratios (dubbed metallic ratios, hence the title of this blog post) can be derived in generality. Similar to the Golden and Silver ratios, the mth metallic ratio is defined as 
+These kinds of ratios (dubbed metallic ratios, hence the title of this blog post) can be derived in generality. Similar to the Golden and silver ratios, the mth metallic ratio is defined as 
 
 $$\frac{ma + b}{a} = \frac{a}{b} = \delta_m$$
 
@@ -113,7 +113,7 @@ In solving for an exact value, we end up with the expression
 
 $$\delta_m = \frac{m + \sqrt{m^2 + 4}}{2}$$
 
-We can check that this formula does, indeed, work with both the Golden and Silver Ratios. With similar algebraic manipulation, we can make out that 
+We can check that this formula does, indeed, work with both the Golden and silver ratios. With similar algebraic manipulation, we can make out that 
 
 $$\delta_m = m + \frac{1}{m + \frac{1}{m + \frac{1}{m + \frac{1}{\ddots}}}}$$
 
@@ -123,4 +123,4 @@ $$\delta_m = \lim_{n \to \infty} \frac{M(n + 1)}{M(n)}$$
 
 for some sequence *M* such that 
 
-$$M(n + 1) = M(n) + mM(n - 1)$$
+$$M(n + 1) = mM(n) + M(n - 1)$$
