@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "Fira";
-  src: url('../public/FiraCode-Light.ttf')
+  src: local('Fira'),
+    url('../public/FiraCode-Light.ttf') format('ttf');
   
 }
 
