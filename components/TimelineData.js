@@ -46,6 +46,18 @@ const data = [
                     'Participated in Qubit by Qubit', 
                     'First place at the European Classical Music Competition'
                 ]
+            }, 
+            {
+                month: 'April',
+                text: [
+                    'Best pitch at Superposition V Hackathon'
+                ]
+            }, 
+            {
+                month: 'March', 
+                text: [
+                    'Best Activism hack at HackDefy 2.0'
+                ]
             }
         ]
     },
