@@ -7,6 +7,7 @@ import Typewriter from 'typewriter-effect'
 import Timeline from '../components/Timeline'
 import BoxesPage from '../components/three/Toruswithoutorbit'
 import CurrentActivities from '../components/CurrentActivities'
+import Link from 'next/link'
 
 export default function About() {
     return (
@@ -44,6 +45,9 @@ export default function About() {
                         In my spare time, I like to participate in quizbowl/history bowl tournaments, play the violin, 
                             take photos, listen to a wide variety of music, and write about pretty much anything I find interesting.
                         </p>
+                        <p>
+                            Check out my <a href="https://cemeterysummoning.github.io/sketches/">generative artwork</a>, <Link href="/blog">blog</Link>, and <Link href="/creations">projects</Link>!
+                        </p>
                     </div>
                     
                 </div>
@@ -51,6 +55,22 @@ export default function About() {
                 {/* <CurrentActivities /> */}
                 
                 <Timeline className={aboutStyles.position}/>
+
+                <div style={{height: '25vh'}}></div>
+
+                <div className={aboutStyles.position}>
+                    <h1>Leadership</h1>
+
+                        <ul style={{lineHeight: '5vh'}}>
+                            <li>2021 - Present: Regional Director of Steel City Codes, Washington DC Chapter</li>
+                            <li>2022 - Present: Captain of the MBHS History Bowl team</li>
+                            <li>2022 - Present: Captain of MBHS Quantum Computing</li>
+                            <li>2022 - Present: Junior Captain of the MBHS Quiz Bowl team</li>
+                            <li>2022 - Present: MBHS Math Team Content task force</li>
+                            <li>2022 - Present: MBHS System Operations</li>
+                            <li>2021 - Present: Organizer at BlairHacks</li>
+                        </ul>
+                </div>
                 
                 <div style={{height: '25vh'}}></div>
 
@@ -64,9 +84,6 @@ export default function About() {
                             <li>2022 - 2023: Member of American Philharmonic Youth Orchestras </li>
                             <li>2016 - 2022: Member of Maryland Classic Youth Orchestras</li>
                         </ul>
-
-                    
-                    
                 </div>
                 
                 <div className={styles.hobbies}>

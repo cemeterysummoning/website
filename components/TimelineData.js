@@ -6,7 +6,7 @@ const data = [
             {
                 month: 'October',
                 text: [
-                    'Performed with a piano quintet in Carnegie Hall with YMIC'
+                    'Performed with a piano quintet in Carnegie Hall, winner\'s concert for YMIC International'
                 ]
             }, 
             {
@@ -25,10 +25,13 @@ const data = [
             {
                 month: 'June',
                 text: [
-                    'Organized a free coding camp for students with Steel City Codes'
-                ], 
-                text: [
                     'Received the Silver President\'s Volunteer Service Award'
+                ]
+            }, 
+            {
+                month: 'March', 
+                text: [
+                    'National Finalist at the 2022 Modeling the Future Challenge'
                 ]
             }
         ]
