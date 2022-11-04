@@ -11,7 +11,7 @@ const Post = ({ post }) => {
             <p>{post.data.excerpt}</p>
             <br />
             <Link href={`/blog/${post.slug}`}>
-                <a className={styles.link}>Continue {'->'}</a>
+                <a className={styles.link}>Continue {'→'}</a>
             </Link>
         </div>
         <br />  

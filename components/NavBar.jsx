@@ -7,7 +7,7 @@ import styles from '../styles/Navbar.module.css'
 
 const NavBar = () => {
     const PAGE_LIST = [
-        {text: '/\\', href: '/'},
+        {text: '⋀', href: '/'},
         {text: 'about', href: '/about'},
         {text: 'blog', href: '/blog'},
         {text: 'creations', href: '/creations'}

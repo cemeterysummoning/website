@@ -48,3 +48,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Barnsley Fern Fractal
 - VQC
 - Binary Crossentropy Loss Function
+- Lucas Sequences
