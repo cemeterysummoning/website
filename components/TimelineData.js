@@ -1,8 +1,26 @@
 const data = [
     {
+        year: 2023, 
+        education: 'STEM Program at Montgomery Blair High School', 
+        contents: [
+            {
+                month: 'January', 
+                text: [
+                    'National Honorable Mention for the NCWIT Aspirations in Computing Award'
+                ]
+            }
+        ]
+    },
+    {
         year: 2022, 
         education: 'STEM Program at Montgomery Blair High School',
         contents: [
+            {
+                month: 'December',
+                text: [
+                    'First place in Chamber Music, YMIC Metropolitan Classical Festival'
+                ]
+            },
             {
                 month: 'October',
                 text: [
