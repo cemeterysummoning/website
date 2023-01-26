@@ -15,6 +15,9 @@ export default function Projects() {
             <br />
 
             <div className={styles.position}>
+                <WriteupThumb name="Applied Statistics"
+                    description="Class lecture notes taken for Magnet Applied Statistics"
+                    path="../../files/Statistics.pdf" />
 
                 <WriteupThumb name="Single Variable Calculus" 
                     description="Lecture notes taken in my 10th grade year on single variable calculus"
