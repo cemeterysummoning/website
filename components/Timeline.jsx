@@ -11,7 +11,7 @@ function indexOfYear(year) {
 }
 
 const Timeline = () => {
-    const [select, chooseSelect] = useState(2022)
+    const [select, chooseSelect] = useState(2023)
 
     return <div className={styles.container}>
         
@@ -22,7 +22,7 @@ const Timeline = () => {
         
         <div className={styles.buttons}>
 
-                
+                <button className={styles.node} onClick={() => chooseSelect(2023)}>2023</button> 
 
                 <button className={styles.node} onClick={() => chooseSelect(2022)}>2022</button> 
                 
