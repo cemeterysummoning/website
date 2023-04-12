@@ -8,6 +8,19 @@ const data = [
                 text: [
                     'National Honorable Mention for the NCWIT Aspirations in Computing Award'
                 ]
+            }, 
+            {
+                month: 'February', 
+                text: [
+                    'Maryland Affiliate for NCWIT Aspirations in Computing'
+                ]
+            }, 
+            {
+                month: 'March', 
+                text: [
+                    'National Finalist at the 2023 Modeling the Future Challenge', 
+                    'Top Scorer at Thomas Jefferson Invitational Academic Tournament'
+                ]
             }
         ]
     },
