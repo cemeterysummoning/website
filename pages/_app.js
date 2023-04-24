@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <NavBar />
     <Component {...pageProps} />
     <footer className={styles.footer}>
-        Yuna Ace Chun, 2022
+        Yuna Ace Chun, 2023
     </footer>
   </>
 }
