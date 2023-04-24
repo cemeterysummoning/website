@@ -21,6 +21,12 @@ const data = [
                     'National Finalist at the 2023 Modeling the Future Challenge', 
                     'Top Scorer at Thomas Jefferson Invitational Academic Tournament'
                 ]
+            }, 
+            {
+                month: 'April',
+                text: [
+                    'Second Place at Maryland Statewide Science Olympiad'
+                ]
             }
         ]
     },
