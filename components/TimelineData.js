@@ -12,7 +12,7 @@ const data = [
             {
                 month: 'February', 
                 text: [
-                    'Maryland Affiliate for NCWIT Aspirations in Computing'
+                    'Maryland Affiliate Award for NCWIT Aspirations in Computing'
                 ]
             }, 
             {
@@ -25,7 +25,21 @@ const data = [
             {
                 month: 'April',
                 text: [
-                    'Second Place at Maryland Statewide Science Olympiad'
+                    'Second Place at Maryland Statewide Science Olympiad',
+                    '16th Place at National History Bowl'
+                ]
+            },
+            {
+                month: 'May',
+                text: [
+                    'Top Scorer at 2023 UQC DART Nationwide Tournament',
+                    '21st Place at National Academic Quiz Tournament\'s High School National Championship Tournament'
+                ]
+            },
+            {
+                month: 'June',
+                text: [
+                    '7th Place at the National All Star Academic Tournament'
                 ]
             }
         ]
