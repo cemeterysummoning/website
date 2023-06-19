@@ -22,6 +22,10 @@ export default function Projects() {
                     description="Class lecture notes taken for Analysis 2A, Multivariable Calculus"
                     path="../../files/Analysis_2A.pdf" />
 
+                <WriteupThumb name="Differential Equations"
+                    description="Class lecture notes taken for Ordinary Differential Equations"
+                    path="../../files/diffeq.pdf" />
+
                 <WriteupThumb name="Applied Statistics"
                     description="Class lecture notes taken for Magnet Applied Statistics"
                     path="../../files/Statistics.pdf" />
