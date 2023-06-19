@@ -49,15 +49,21 @@ const data = [
         education: 'STEM Program at Montgomery Blair High School',
         contents: [
             {
-                month: 'December',
+                month: 'March', 
                 text: [
-                    'First place in Chamber Music, YMIC Metropolitan Classical Festival'
+                    'National Finalist at the 2022 Modeling the Future Challenge'
                 ]
             },
             {
-                month: 'October',
+                month: 'June',
                 text: [
-                    'Performed with a piano quintet in Carnegie Hall, winner\'s concert for YMIC International'
+                    'Received the Silver President\'s Volunteer Service Award'
+                ]
+            },
+            {
+                month: 'July',
+                text: [
+                    'Participated in the Quantum Software course, MIT BWSI',
                 ]
             }, 
             {
@@ -68,21 +74,15 @@ const data = [
                 ]
             },
             {
-                month: 'July',
+                month: 'October',
                 text: [
-                    'Participated in the Quantum Software course, MIT BWSI',
+                    'Performed with a piano quintet in Carnegie Hall, winner\'s concert for YMIC International'
                 ]
             }, 
             {
-                month: 'June',
+                month: 'December',
                 text: [
-                    'Received the Silver President\'s Volunteer Service Award'
-                ]
-            }, 
-            {
-                month: 'March', 
-                text: [
-                    'National Finalist at the 2022 Modeling the Future Challenge'
+                    'First place in Chamber Music, YMIC Metropolitan Classical Festival'
                 ]
             }
         ]
@@ -92,12 +92,11 @@ const data = [
         education: 'STEM Program at Montgomery Blair High School',
         contents: [
             {
-                month: 'July', 
+                month: 'March', 
                 text: [
-                    'Participated in Qubit by Qubit', 
-                    'First place at the European Classical Music Competition'
+                    'Best Activism hack at HackDefy 2.0'
                 ]
-            }, 
+            },
             {
                 month: 'April',
                 text: [
@@ -105,11 +104,12 @@ const data = [
                 ]
             }, 
             {
-                month: 'March', 
+                month: 'July', 
                 text: [
-                    'Best Activism hack at HackDefy 2.0'
+                    'Participated in Qubit by Qubit', 
+                    'First place at the European Classical Music Competition'
                 ]
-            }
+            }, 
         ]
     },
     {
@@ -117,17 +117,17 @@ const data = [
         education: 'Humanities Program at Eastern Middle School',
         contents: [
             {
+                month: 'March',
+                text: [
+                    'Won first place in the CSPAN Student-Cam Contest'
+                ]
+            },
+            {
                 month: 'June',
                 text: [
                     'Received the Silver President\'s Volunteer Service Award'
                 ]
             },
-            {
-                month: 'March',
-                text: [
-                    'Won first place in the CSPAN Student-Cam Contest'
-                ]
-            }
         ]
     }
 ];
