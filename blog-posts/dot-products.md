@@ -133,7 +133,9 @@ Plugging this into our original expression,
 
 $$|\bold{a}||\bold{b}|\cos{\theta} = \bold{a} \cdot \frac{\bold{b}}{|\bold{b}|} = \bold{a} \cdot \bold{b}$$
 
-It works out cleanly in the end; nothing's blown up, which is always good. 
+It works out cleanly in the end; 
+
+nothing's blown up, which is always good. 
 
 However, I'm more interested in our first expression: how does the sum of the componentwise products of our vectors relate in any way to the product of the magnitudes of the vectors and the cosine of the angle between them? What is the relationship between these two expressions?
 
