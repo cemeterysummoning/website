@@ -49,3 +49,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - VQC
 - Binary Crossentropy Loss Function
 - Lucas Sequences
+- [Hamming 7,4](https://en.wikipedia.org/wiki/Hamming(7,4))
+- [Percolation](https://web.mit.edu/ceder/publications/Percolation.pdf)
+- [Color difference](https://en.wikipedia.org/wiki/Color_difference)
