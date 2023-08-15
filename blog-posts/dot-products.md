@@ -116,18 +116,18 @@ Looking at the diagram, the geometric meaning of the dot product by our second f
 </g>
 </svg>
 
-We get a right triangle defined by the perpendicular, **a**, and **b**. We also know that the cosine of our angle θ is equal to the ratio of the magnitude of the vector project of **a** onto **b** (let's call it **d**) to the magnitude of **a**. 
+We get a right triangle defined by the perpendicular, **a**, and **b**. We also know that the cosine of our angle θ is equal to the ratio of the magnitude of the vector project of **a** onto **b** (let's call it **c**) to the magnitude of **a**. 
 
-$$\cos{\theta} = \frac{|\bold{d} |}{|\bold{a}|}$$
+$$\cos{\theta} = \frac{|\bold{c} |}{|\bold{a}|}$$
 
 Multiplying |**a**| and |**b**| onto both sides gives us 
 
 $$|\bold{a}||\bold{b}|\cos{\theta} = |\bold{c}||\bold{b}|$$
 
 This is an interesting result; apparently, the dot product gives us the component of **a** along **b** multiplied with the length of **b** itself. 
-Note that we can replace **d** with the actual definition of a component (or the magnitude of the projection of one vector onto another). 
+Note that we can replace **c** with the actual definition of a component (or the magnitude of the projection of one vector onto another). 
 
-$$\text{comp}_{\bold{b}} \bold{a} = \bold{a} \cdot \frac{\bold{b}}{|\bold{b}|} = \bold{c}$$
+$$\text{comp}_{\bold{b}} \bold{a} = \bold{a} \cdot \frac{\bold{b}}{|\bold{b}|} = |\bold{c}|$$
 
 Plugging this into our original expression, 
 
