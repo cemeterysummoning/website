@@ -17,7 +17,7 @@ export default function About() {
 
             <div className={styles.container}>
                 <CreationThumbnail type="projects" />
-                <CreationThumbnail type="handouts" />
+                <CreationThumbnail type="notes" />
                 <CreationThumbnail type="photos" />
                 <CreationThumbnail type="art" />
                 

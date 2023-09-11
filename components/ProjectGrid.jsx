@@ -3,6 +3,9 @@ import styles from '../styles/Projects.module.css'
 
 function ProjectGrid() {
     return <div className={styles.container}>
+        <ProjectThumbnail name="MagnetoSuture™ Annotator" 
+                description="Video annotator created for MagnetoSuture™, created as part of my internship at UMD Department of Mechanical Engineering"
+                gitlink="https://github.com/cemeterysummoning/annotator" />
         <ProjectThumbnail name="Variational Quantum Classifier" 
                 description="Final project for Quantum Software at BWSI, a simple quantum machine learning architecture" 
                 gitlink="https://github.com/cemeterysummoning/fruse"/>

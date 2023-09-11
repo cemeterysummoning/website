@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
 @font-face {
-  font-family: "Fira";
+  font-family: "Fira", 'Courier New', Courier, monospace;
   src: local('Fira'),
     url('../public/FiraCode-Light.ttf') format('ttf');
   

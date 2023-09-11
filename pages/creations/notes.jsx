@@ -6,11 +6,11 @@ export default function Projects() {
     return (
         <div>
             <Head>
-                <title>handouts</title>
+                <title>notes</title>
             </Head>
 
             <div style={{height: "10vh"}}></div>
-            <h1 style={{marginLeft: "10%"}}>handouts</h1>
+            <h1 style={{marginLeft: "10%"}}>notes</h1>
             <h3 style={{marginLeft: "10%"}}>a repository of lecture notes and writeups</h3>
             <br />
 

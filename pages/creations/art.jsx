@@ -5,6 +5,7 @@ export default function Projects() {
             <Head>
                 <title>art</title>
             </Head>
+            
         </div>
     )
 }
