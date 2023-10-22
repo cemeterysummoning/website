@@ -1,6 +1,7 @@
 ---
 title: "thoughts"
 date: "Oct 2 2023" 
+excerpt: "for a friend"
 ---
 
 
