@@ -80,6 +80,12 @@ const data = [
                 ]
             }, 
             {
+                month: 'November',
+                text: [
+                    'Honorable Mention in the Bowseat Ocean Awareness Contest'
+                ]
+            },
+            {
                 month: 'December',
                 text: [
                     'First place in Chamber Music, YMIC Metropolitan Classical Festival'

@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import styles from '../styles/Creations.module.css'
 
-const CreationThumbnail = ({ type }) => (
-    <Link href={`/creations/${type}`}>
+const CreationThumbnail = ({ type, name }) => (
+    <Link href={`${type}`}>
         <div className={styles.thumbnail}>
-            {type}
+            {name}
         </div>
     </Link>
 )
