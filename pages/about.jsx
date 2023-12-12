@@ -65,7 +65,8 @@ export default function About() {
                             <li>2021 - Present: Regional Director of Steel City Codes, Washington DC Chapter</li>
                             <li>2022 - Present: Captain of the MBHS Quiz Bowl team</li>
                             <li>2022 - Present: Captain of the MBHS History Bowl team</li>
-                            <li>2023 - Present: Research Intern at the Department of Mechanical Engineering at UMD</li>
+                            <li>2023 - Present: Research Intern at the Collaborative Controls and Robotics Lab at UMD</li>
+                            <li>2023 - Present: President of Volunteering with Young Musicians Inspiring Change</li>
                             <li>2022 - Present: Captain of MBHS Quantum Computing</li>
                             <li>2022 - Present: MBHS Math Team Content task force</li>
                             <li>2022 - Present: MBHS System Operations</li>
