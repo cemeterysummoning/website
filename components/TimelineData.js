@@ -47,7 +47,7 @@ const data = [
                 text: [
                     '3rd place at Princeton High School Academic Tournament XXX'
                 ]
-            }
+            },
             {
                 month: 'October',
                 text: [
