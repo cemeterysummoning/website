@@ -43,6 +43,12 @@ const data = [
                 ]
             }, 
             {
+                month: 'September',
+                text: [
+                    '3rd place at Princeton High School Academic Tournament XXX'
+                ]
+            }
+            {
                 month: 'October',
                 text: [
                     'Performed at Carnegie Hall with YMIC with International Competition Winners'
@@ -51,7 +57,7 @@ const data = [
             {
                 month: 'November',
                 text: [
-                    '2nd Place in Venetian III, individual Quizbowl tournament
+                    '2nd Place in Venetian III, individual Quizbowl tournament'
                 ]
             }
         ]
