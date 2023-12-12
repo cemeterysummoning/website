@@ -57,7 +57,7 @@ const data = [
             {
                 month: 'November',
                 text: [
-                    '2nd Place in Venetian III, individual Quizbowl tournament'
+                    '2nd Place in Venetian III, hosted by Ultimate Quizbowl Championships'
                 ]
             }
         ]
