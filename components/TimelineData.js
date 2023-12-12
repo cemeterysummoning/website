@@ -41,6 +41,18 @@ const data = [
                 text: [
                     '7th Place at the National All Star Academic Tournament'
                 ]
+            }, 
+            {
+                month: 'October',
+                text: [
+                    'Performed at Carnegie Hall with YMIC with International Competition Winners'
+                ]
+            },
+            {
+                month: 'November',
+                text: [
+                    '2nd Place in Venetian III, individual Quizbowl tournament
+                ]
             }
         ]
     },
