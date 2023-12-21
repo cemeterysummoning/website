@@ -6,13 +6,15 @@ const data = [
             {
                 month: 'January', 
                 text: [
-                    'National Honorable Mention for the NCWIT Aspirations in Computing Award'
+                    'National Honorable Mention for the NCWIT Aspirations in Computing Award',
+                    'Performed at the Embassy of Bulgaria'
                 ]
             }, 
             {
                 month: 'February', 
                 text: [
-                    'Maryland Affiliate Award for NCWIT Aspirations in Computing'
+                    'Maryland Affiliate Award for NCWIT Aspirations in Computing',
+                    'Second Prize at the American Virtuoso International Music Competition, Chamber'
                 ]
             }, 
             {
@@ -26,7 +28,8 @@ const data = [
                 month: 'April',
                 text: [
                     'Second Place at Maryland Statewide Science Olympiad',
-                    '16th Place at National History Bowl'
+                    '16th Place at National History Bowl',
+                    'Performed at the Arts Club of Washington'
                 ]
             },
             {
@@ -92,6 +95,12 @@ const data = [
                 ]
             },
             {
+                month: 'September',
+                text: [
+                    'Performed at the Kimmel Center for Performing Arts'
+                ]
+            },
+            {
                 month: 'October',
                 text: [
                     'Performed with a piano quintet in Carnegie Hall, winner\'s concert for YMIC International'
@@ -143,7 +152,8 @@ const data = [
             {
                 month: 'March',
                 text: [
-                    'Won first place in the CSPAN Student-Cam Contest'
+                    'Won first place in the CSPAN Student-Cam Contest', 
+                    'Superior Rating at the MMEA Solo & Ensemble Festival'
                 ]
             },
             {
