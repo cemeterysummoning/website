@@ -14,3 +14,5 @@ const withMDX = nextMDX({
 export default withMDX({
   pageExtensions: ['md', 'mdx', 'tsx', 'ts', 'jsx', 'js']
 })
+
+
