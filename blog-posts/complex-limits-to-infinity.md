@@ -19,7 +19,7 @@ $$\forall \epsilon,\ \exists N\ s.t.\ x \gt N \to |f(x) - L| \lt \epsilon$$
 
 But what does it even *mean* to travel in a "direction" of infinity on the complex plane? Aren't there a million paths? What does it mean to be inside some $B_\delta(\infty)$?
 
-First, we'll take a tangent into the world of stereographic projections. Take a circle, cut in half by the real number line. We can draw a line through the top of the circle and every single point ($P'$) on the real number line, which will intersect another point on the circle itself ($P$). 
+First, we'll take a tangent into the world of stereographic projections. Take a circle, cut in half by the real number line. We can draw a line through the top of the circle and every single point ($P$') on the real number line, which will intersect another point on the circle itself ($P$). 
 
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
