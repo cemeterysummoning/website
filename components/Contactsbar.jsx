@@ -14,7 +14,7 @@ const Contactsbar = () => {
                 <Icon path={link.path} href={link.href}/>
             })} */}
             <Icon path={githubLogo} href="https://github.com/cemeterysummoning"/>
-            <Icon path={linkedinLogo} href="https://www.linkedin.com/in/yuna-chun-20232720a/"/>
+            <Icon path={linkedinLogo} href="https://www.linkedin.com/in/ace-chun-20232720a/"/>
         </div>
     )
 }
