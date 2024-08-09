@@ -1,8 +1,8 @@
 const nextConfig = {
-  reactStrictMode: true,
-  experimental: {
-    newNextLinkBehavior: false,
-  },
+    output: 'export', 
+    images: {
+      unoptimized: true,
+    },
   }
 
 module.exports = nextConfig;

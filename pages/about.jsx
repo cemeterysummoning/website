@@ -45,7 +45,7 @@ export default function About() {
                             take photos, listen to a wide variety of music, and write about pretty much anything I find interesting.
                         </p> */}
                         <p>
-                            Check out my <a href="https://cemeterysummoning.github.io/sketches/">generative artwork</a>, <Link href="/blog">blog</Link>, <Link href="/creations/notes">notes</Link>, and <Link href="/creations">projects</Link>!
+                            Check out my <a href="https://cemeterysummoning.github.io/sketches/">generative artwork</a>, <Link href="/blog">blog</Link>, <Link href="/creations/notes">notes</Link>, and <Link href="/creations">projects</Link>.
                         </p>
                     </div>
                     

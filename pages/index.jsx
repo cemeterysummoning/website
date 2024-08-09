@@ -11,11 +11,12 @@ export default function Home() {
       <Head>
         <title>Ace C.</title>
       </Head>
-      <BoxesPage />
+      
 
       {/* <NavBar/> */}
 
       <main className={styles.main}>
+      <BoxesPage style={{position: 'fixed'}}/>
       {/* <NavBar /> */}
 
       
