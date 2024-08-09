@@ -14,10 +14,9 @@ export default function Home() {
       
 
       {/* <NavBar/> */}
-
-      <main className={styles.main}>
       <BoxesPage style={{position: 'fixed'}}/>
-      {/* <NavBar /> */}
+      <main className={styles.main}>
+      
 
       
         <h1 className={styles.title}>Hey there.</h1>

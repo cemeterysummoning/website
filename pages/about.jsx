@@ -45,7 +45,7 @@ export default function About() {
                             take photos, listen to a wide variety of music, and write about pretty much anything I find interesting.
                         </p> */}
                         <p>
-                            Check out my <a href="https://cemeterysummoning.github.io/sketches/">generative artwork</a>, <Link href="/blog">blog</Link>, <Link href="/creations/notes">notes</Link>, and <Link href="/creations">projects</Link>.
+                            Check out my <Link styles={{textDecoration: "underline"}} href="https://cemeterysummoning.github.io/sketches/">generative artwork</Link>, <Link href="/blog">blog</Link>, <Link href="/creations/notes">notes</Link>, and <Link href="/creations">projects</Link>.
                         </p>
                     </div>
                     
@@ -57,26 +57,27 @@ export default function About() {
 
                 <div style={{height: '25vh'}}></div>
 
-                {/* <div className={aboutStyles.position}>
+                <div className={aboutStyles.position}>
                     <h1>Work</h1>
 
                         <ul style={{lineHeight: '5vh'}}>
-                            <li>2023 - Present: Research Intern at the Collaborative Controls and Robotics Lab at UMD</li>
-                            <li>2023 - Present: President of Volunteering with Young Musicians Inspiring Change</li>
-                            <li>2023 - Present: Captain of MBHS Logic Club</li>
-                            <li>2021 - Present: Regional Director of Steel City Codes, Washington DC Chapter</li>
-                            <li>2022 - Present: Captain of the MBHS Quiz Bowl team</li>
-                            <li>2022 - Present: Captain of the MBHS History Bowl team</li>
-                            <li>2022 - Present: Captain of MBHS Quantum Computing</li>
+                            <li>2024: Course Instructor with Beaver Works Summer Institute, Quantum Software</li>
+                            <li>2023 - 2024: Research Intern at the Collaborative Controls and Robotics Lab at UMD</li>
+                            {/* <li>2023 - Present: President of Volunteering with Young Musicians Inspiring Change</li>
+                            <li>2023 - Present: Captain of MBHS Logic Club</li> */}
+                            <li>2021 - 2024: Regional Director of Steel City Codes, Washington DC Chapter</li>
+                            <li>2022 - 2024: Captain of the MBHS Quiz Bowl team</li>
+                            <li>2022 - 2024: Captain of the MBHS History Bowl team</li>
+                            {/* <li>2022 - Present: Captain of MBHS Quantum Computing</li>
                             <li>2022 - Present: MBHS Math Team Content task force</li>
                             <li>2022 - Present: MBHS System Operations</li>
-                            <li>2022 - Present: Member of MBHS Tri-M</li>
-                            <li>2022 - Present: Member of MBHS Science Olympiad</li>
+                            <li>2022 - Present: Member of MBHS Tri-M</li> */}
+                            <li>2022 - 2024: Member of MBHS Science Olympiad</li>
                             <li>2021 - 2023: Organizer at BlairHacks</li>
                         </ul>
                 </div>
                 
-                <div style={{height: '25vh'}}></div> */}
+                <div style={{height: '25vh'}}></div>
 
                 <div className={aboutStyles.position}>
                     <h1>Education</h1>

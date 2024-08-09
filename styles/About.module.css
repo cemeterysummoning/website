@@ -15,3 +15,8 @@
     align-content: center;
 }
 
+.linkOverlay{
+    z-index: 10;
+    /* text-decoration: underline; */
+    position: inherit;
+}
