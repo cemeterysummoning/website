@@ -4,6 +4,7 @@ import remarkMath from 'remark-math'
 import nextMDX from '@next/mdx'
 
 const withMDX = nextMDX({
+  output: 'export',
   extension: /\.mdx?$/,
   options: {
     rehypePlugins: [rehypeKatex], 
