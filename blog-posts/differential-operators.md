@@ -63,7 +63,7 @@ $$p(D) y = 0$$
 the solutions will take the form of $e^{rx}$, where $r$ is a root of the polynomial $p$. $r$ is a k-fold root of $p$, then the $k$ linearly independent solutions yielded will be of the form 
 $$e^{rx}, xe^{rx}, \cdots, x^{k-1} e^{rx}$$
 If $r$ is complex, we use Euler's formula to convert the complex exponential to sinusoids. Note that $\sin$ and $\cos$ are linearly independent functions.
-# Finding $y_p$
+# Finding the Particular Solution
 
 ## Exponential inputs
 A non-homogeneous linear differential equation of the form 
