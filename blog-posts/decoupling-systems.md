@@ -1,3 +1,8 @@
+---
+title: "Decoupling systems"
+date: "Aug 30, 2024"
+---
+
 # Eigenvectors and Eigenvalues
 Before we look at decoupling matrices, we should take a second to understand *what* an eigenvector for some linear transformation $A$ is. By definition, some vector $\mathbf{v} \neq \mathbf{0}$ is an eigenvector of a linear map $A$ if 
 $$A\mathbf{v} = \lambda \mathbf{v}$$
