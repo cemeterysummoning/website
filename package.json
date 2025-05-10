@@ -39,10 +39,10 @@
   "devDependencies": {
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.5",
-    "webpack": ">=5.76.0",
     "json5": ">=2.2.2",
+    "next": ">=13.4.20-canary.13",
     "postcss": ">=8.4.31",
-    "next": ">=13.4.20-canary.13"
+    "webpack": ">=5.76.0"
   },
   "engines": {
     "node": "^20.x"

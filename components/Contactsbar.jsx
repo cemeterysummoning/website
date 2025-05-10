@@ -2,8 +2,6 @@ import styles from '../styles/Home.module.css'
 import githubLogo from './../public/github.svg'
 import linkedinLogo from './../public/linkedin.svg'
 import Icon from './Icon'
-import resumeLogo from './../public/resume.svg'
-import resumeFile from './../public/files/resume.pdf'
 
 const Contactsbar = () => {
     const LINKS = [
@@ -17,7 +15,6 @@ const Contactsbar = () => {
             })} */}
             <Icon path={githubLogo} href="https://github.com/cemeterysummoning"/>
             <Icon path={linkedinLogo} href="https://www.linkedin.com/in/ace-chun-20232720a/"/>
-            <Icon path={resumeLogo} href={resumeFile} />
         </div>
     )
 }
