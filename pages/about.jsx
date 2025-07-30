@@ -61,7 +61,8 @@ export default function About() {
                     <h1>Work</h1>
 
                         <ul style={{lineHeight: '5vh'}}>
-                            <li>2024 - Present: Research Assistant in MIT CSAIL, FutureTech Group</li>
+                            <li>2025: Undergraduate Researcher at NIST Information Technology Laboratory under the SURF program</li>
+                            <li>2024 - 2025: Research Assistant in MIT CSAIL, FutureTech Group</li>
                             <li>2024: Course Instructor with Beaver Works Summer Institute, Quantum Software</li>
                             <li>2023 - 2024: Research Intern at the Collaborative Controls and Robotics Lab at UMD</li>
                             {/* <li>2023 - Present: President of Volunteering with Young Musicians Inspiring Change</li>
